@@ -1,0 +1,138 @@
+@media screen and (max-width: 414px) {
+/*--------- PARALAXE MEDIA QUERIES---------------- */
+  .section1
+  {
+    background-size: cover;
+    height: 210px;
+    /* align-items: flex-start; */
+    background-position: top;
+  }
+  .section2
+  {
+    height: 1050px;
+    /* align-items: flex-start; */
+    background-position: top; */
+  }
+  .section3
+  {
+    height: 3050px;
+  }
+  .section4
+  {
+    height: 3050px;
+  }
+  .section5
+  {
+    height: 450px;
+  }
+
+/*--------- NAV MEDIA QUERIES---------------- */
+
+  .logo_menu
+  {
+    width: 60px;
+  }
+
+/*--------- CSS GRID MEDIA QUERIES---------------- */
+
+  .grid
+  {
+
+    margin-left: 20px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+  }
+
+  .stat {
+   background: white;
+   border: solid rgba(0,0,0,0.2) 0.8px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   padding-left: 25px;
+   padding-right: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   flex-direction: column;
+   border-radius: 2px;
+   }
+
+   .pp
+   {
+     background-size: cover;
+     background-position: center;
+     width: 110px;
+     height: 110px;
+   }
+
+  .profil
+  {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    transition: 0.4s;
+  }
+
+  .stat1
+  {
+    display: none;
+  }
+
+  .stat2
+  {
+    display: none;
+  }
+
+  .stat3
+  {
+    display: none;
+  }
+
+  i
+  {
+    color: none;
+  }
+
+  #facebook
+  {
+    color: #3b5998;
+  }
+
+  #twitter
+  {
+    color: #00aced;
+  }
+
+  #linkedin
+  {
+    color: #007bb6;
+  }
+
+  /*--------------- ABOUT CONFIG ---------------*/
+
+  .about
+  {
+    grid-column: 1 / span 4;
+    grid-row: 2;
+  }
+/*--------------- CARD CONFIG ---------------*/
+  .card
+  {
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+/*--------------- FOOTER CONFIG ---------------*/
+
+.lead
+{
+  display: none;
+}
+
+
+  html
+  {
+    -webkit-scroll-behavior: smooth;
+  }
+
+}

@@ -1,0 +1,23 @@
+footer
+{
+  background-color: #212121;
+  color: #929292;
+}
+
+.follow-footer
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.email2{
+  color: #929292;
+}
+
+.email2:hover{
+  animation: none;
+  color: white;
+  text-decoration: none;
+}

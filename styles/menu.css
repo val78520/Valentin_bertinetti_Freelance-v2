@@ -1,0 +1,24 @@
+.nav-link
+{
+  transition: all .4s ease-in-out;
+  color: #2f3947 !important;
+}
+
+.nav-link:hover
+{
+  transform: scale(1.25);
+  color: #3c8482 !important;
+}
+
+.navbar
+{
+  background-color: white;
+  opacity: ;
+}
+
+
+
+.logo_menu
+{
+  width: 75px;
+}

@@ -1,0 +1,55 @@
+@import url('styles/all.css');
+@import url('styles/menu.css');
+@import url('styles/paralaxe.css');
+@import url('styles/grid.css');
+@import url('styles/card.css');
+@import url('styles/footer.css');
+@import url('styles/mediaq.css');
+@import url('styles/header.css');
+@import url('styles/fonts.css');
+
+
+/* TODO : create a CSS grid */
+
+.grid_real{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 160px);
+}
+.real_img{
+    grid-column: auto/span 1;
+    grid-row: auto/ span 2;
+
+}
+#real_effect:hover
+{
+  filter: grayscale(1);
+}
+.img-large{
+    grid-column: auto/span 2;
+    grid-row: auto/span 3;
+}
+.img-xlarge{
+    grid-column: auto/span 3;
+    grid-row: auto/span 4;
+}
+
+.random {
+  transition: 2s;
+  -webkit-transition: 2s;
+}
+
+.reseaux2
+{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lien-position
+{
+  margin-left: 30px;
+  margin-right: 30px;
+}

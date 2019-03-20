@@ -1,0 +1,98 @@
+
+.card
+{
+  transition: 0.4s;
+  transition: all .4s ease-in-out;
+
+}
+
+.card:hover
+{
+  box-shadow: 2px 1px 3px 1px rgba(0,0,0,0.2);
+  transform: scale(1.03);
+}
+
+#card-body
+{
+  background-color: #eaeaea;
+}
+
+#imgcard
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#bac-img
+{
+  width: 150px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sowee-img
+{
+  width: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#esd-img
+{
+  width: 260px;
+}
+
+#gmm-img
+{
+  width: 275px;
+}
+
+.card-title
+{
+  font-family: "gotham";
+  color: #2f3947;
+}
+
+
+.card-title2
+{
+  font-family: "gotham";
+  color: #3c8482;
+  font-size:
+}
+
+.card-texte
+{
+  font-family: "heebo", sans-serif;
+  color: #2f3947;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 24px;
+}
+.card-texte2
+{
+  font-family: "heebo", sans-serif;
+  color: #2f3947;
+  font-weight: 100;
+  font-size: 18px;
+}
+.card-texte3
+{
+  font-family: "heebo", sans-serif;
+  color: #2f3947;
+  font-weight: 100;
+}
+.card-texte4
+{
+  font-family: "heebo", sans-serif;
+  color: #3c8482;
+  font-weight: 100;
+}
+
+.card-texte5
+{
+  font-family: "heebo", sans-serif;
+  color: white;
+  font-weight: 100;
+}
