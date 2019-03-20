@@ -1,8 +1,8 @@
 @font-face {
   font-family: 'gotham';
-  src: url('../fonts/gotham-cufonfonts/Gotham-Bold.eot') format('embedded-opentype');
+  src: url('../fonts/gotham-cufonfonts/Gotham-Bold.ttf') format('embedded-opentype');
   -webkit-font-family: 'gotham';
-  -webkit-src: url('../fonts/gotham-cufonfonts/Gotham-Bold.eot') format('embedded-opentype');
+  -webkit-src: url('../fonts/gotham-cufonfonts/Gotham-Bold.ttf') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
