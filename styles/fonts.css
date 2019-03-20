@@ -1,12 +1,15 @@
 @font-face {
   font-family: 'gotham';
   src: url('../fonts/gotham-cufonfonts/Gotham-Bold.eot') format('embedded-opentype');
+  -webkit-font-family: 'gotham';
+  -webkit-src: url('../fonts/gotham-cufonfonts/Gotham-Bold.eot') format('embedded-opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'gotham';
+  -webkit-font-family: 'gotham';
   src:  url('Gotham-Bold.otf')  format('opentype'),
 	     url(data:application/x-font-woff;charset=utf-8;base64,d09GRgABAAAAAGroAA8AAAABDcQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGRlRNAABqzAAAABoA
 AAAcUEPC10dERUYAAFq0AAAAUAAAAFwPRQ0SR1BPUwAAYQQAAAnHAAA95DPq1WpHU1VCAABbBAAA
