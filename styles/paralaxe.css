@@ -140,6 +140,14 @@
   margin-top: 70px;
 }
 
+.static6
+{
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .parallax::after {
   /* Display and position the pseudo-element */
