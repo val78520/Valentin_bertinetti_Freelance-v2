@@ -411,14 +411,20 @@
   </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="app.js"></script>
-  <span itemscope itemtype="http://schema.org/Person">
-  <meta itemprop="name" content="Valentin"/>
-  <meta itemprop="alternateName" content="Bertinetti"/>
-  <link itemprop="url" href=""/>
-  <img itemprop="image" src=""/>
-  <meta itemprop="jobTitle" content="Freelance design, marketing digital, dev front end"/>
-  <a itemprop="sameAs" href="https://twitter.com/valentinbertin3">Twitter</a>
-  <a itemprop="sameAs" href="https://www.linkedin.com/in/valentin-bertinetti/">LinkedIn</a>
-  </span>
+    <script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Person",
+    "name": "Valentin",
+    "alternateName": "Bertinetti",
+    "url": "",
+    "image": "",
+    "sameAs": [
+      "https://twitter.com/valentinbertin3",
+      "https://www.linkedin.com/in/valentin-bertinetti/"
+    ],
+    "jobTitle": "Freelance design, marketing digital, dev front end"
+  }
+  </script>
   </body>
 </html>
