@@ -8,6 +8,9 @@
 @import url('styles/header.css');
 @import url('styles/fonts.css');
 
+body, html {
+  overflow-x: hidden;
+}
 
 /* TODO : create a CSS grid */
 
