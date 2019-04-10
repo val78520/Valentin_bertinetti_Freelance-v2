@@ -36,7 +36,7 @@
 {
   grid-column: 3;
   grid-row: 1;
-  background-image: url("../image/projet.jpg");
+  background-image: url("../image/projets_valentin_bertinetti_1436x771.jpg");
   background-size: cover;
   background-position: right;
   filter: grayscale(100%);
@@ -50,7 +50,7 @@
   grid-row: 1;
   background-size: cover;
   background-position: center;
-  background-image:url("../image/parcour.jpg");
+  background-image:url("../image/parcours_valentin_bertinetti_1200x900.jpg");
   filter: grayscale(100%);
   transition: 0.4s;
 
@@ -60,7 +60,7 @@
 {
   grid-column: 4;
   grid-row: 1;
-  background-image:url("../image/passions.jpg");
+  background-image:url("../image/passions_valentin_bertinetti_3050x2480.jpg");
   background-size: cover;
   background-position: center;
   filter: grayscale(100%);
