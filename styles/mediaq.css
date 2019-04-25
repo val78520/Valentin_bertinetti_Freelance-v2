@@ -28,7 +28,10 @@
       {
         height: 350px;
       }
-
+      .section7
+      {
+        height: 3700px;
+      }
       .static
       {
         align-items: flex-start;
@@ -137,7 +140,10 @@
         {
           height: 350px;
         }
-
+        .section7
+        {
+          height: 3400px;
+        }
         .static
         {
           align-items: flex-start;
@@ -246,7 +252,10 @@
       {
         height: 420px;
       }
-
+      .section7
+      {
+        height: 3250px;
+      }
     /*--------- NAV MEDIA QUERIES---------------- */
 
       .logo_menu
