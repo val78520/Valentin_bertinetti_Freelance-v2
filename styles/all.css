@@ -104,9 +104,12 @@ li
 
 /* ---------------EMAIL ANIMATION ---------------*/
 
-
-
 body
 {
   color: white;
+}
+
+.video
+{
+  width: auto;
 }
