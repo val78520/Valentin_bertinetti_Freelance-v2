@@ -1,9 +1,13 @@
+.card-img-top {
+    border-top-left-radius: calc( 12px) !important;
+    border-top-right-radius: calc( 12px) !important;
+  }
 
 .card
 {
   transition: 0.4s;
   transition: all .4s ease-in-out;
-
+  border-radius: 12px !important;
 }
 
 .card:hover
@@ -70,7 +74,7 @@
   -webkit-font-family: "heebo", sans-serif;
   color: #2f3947;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 24px;
 }
 .card-texte2
