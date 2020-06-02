@@ -8,6 +8,15 @@
   transition: 0.4s;
   transition: all .4s ease-in-out;
   border-radius: 12px !important;
+  border: solid #f2f2f2 !important;
+  background-color: white !important;
+}
+
+.nav-item
+{
+  width: 300px;
+  display: flex;
+  justify-content: center;
 }
 
 .card:hover

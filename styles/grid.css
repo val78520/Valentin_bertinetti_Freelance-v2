@@ -17,6 +17,21 @@
   grid-column: 1 ;
   grid-row: 1 / span 2;
   transition: 0.4s;
+  
+}
+
+.profil:hover,.profil2:hover
+{
+box-shadow: 2px 1px 3px 1px rgba(0,0,0,0.2);
+transition: 0.4s;
+
+}
+
+.profil2
+{
+  grid-column: 2 ;
+  grid-row: 1 / span 2;
+  transition: 0.4s;
 }
 
 /* ---------------STAT CONFIG--------------- */
@@ -29,7 +44,7 @@
  align-items: center;
  justify-content: space-around;
  flex-direction: column;
- border-radius: 2px;
+ border-radius: 12px;
  }
 
 .stat1
@@ -72,7 +87,7 @@
 
 .about
 {
-  grid-column: 2 / span 3;
+  grid-column: 3 / span 2;
   grid-row: 1 / span 2;
 }
 
@@ -93,11 +108,7 @@
 
 /* ---------------STAT ANIMATION ---------------*/
 
-.profil:hover
-{
-box-shadow: 2px 1px 3px 1px rgba(0,0,0,0.2);
-transition: 0.4s;
-}
+
 
 .stat1:hover,.stat2:hover,.stat3:hover
 {

@@ -113,3 +113,8 @@ body
 {
   width: auto;
 }
+
+.progress-bar
+{
+  background-color: #2F6F6D !important;
+}
