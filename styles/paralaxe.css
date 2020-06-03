@@ -46,8 +46,9 @@
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 700px;
-  padding-top: 50px;
+  height: auto;
+  padding-top: 100px;
+  padding-bottom: 25px;
   /* For text formatting. */
 }
 
@@ -93,9 +94,10 @@
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 2000px;
-  background: black;
-  margin-top: 100px;
+  height: auto;
+  background: grey;
+  padding-top: 100px;
+  padding-bottom: 50px;
   /* For text formatting. */
 }
 
