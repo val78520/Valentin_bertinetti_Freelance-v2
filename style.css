@@ -12,31 +12,10 @@
   overflow-x: hidden;
 } */
 
-/* TODO : create a CSS grid */
 
-.grid_real{
 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(9, 160px);
-}
-.real_img{
-    grid-column: auto/span 1;
-    grid-row: auto/ span 2;
 
-}
-#real_effect:hover
-{
-  filter: grayscale(1);
-}
-.img-large{
-    grid-column: auto/span 2;
-    grid-row: auto/span 3;
-}
-.img-xlarge{
-    grid-column: auto/span 3;
-    grid-row: auto/span 4;
-}
+
 
 .random {
   transition: 2s;

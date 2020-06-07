@@ -1,27 +1,32 @@
 .nav-link
 {
   transition: all .4s ease-in-out;
-  color: #2f3947 !important;
-  font-size: 24px;
+  color: white !important;
+  font-size: 12px;
+  letter-spacing: 2px;
 }
 
 .nav-link:hover
 {
   transform: scale(1.25);
-  color: #3c8482 !important;
+  color: #FFE400 !important;
+  letter-spacing: 3px;
 }
 
 .navbar
 {
-  background-color: white;
-  box-shadow: 2px 1px 3px 1px rgba(0,0,0,0.2);
+  background-color: black;
+  border-bottom: solid #262626 1px;
   font-family: "Work Sans";
   height: 75px;
 }
 
-
-
-
+.nav-item
+{
+  width: 150px;
+  display: flex;
+  justify-content: center;
+}
 
 .logo_menu
 {

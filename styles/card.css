@@ -1,22 +1,13 @@
-.card-img-top {
-    border-top-left-radius: calc( 12px) !important;
-    border-top-right-radius: calc( 12px) !important;
-  }
-
 .card
 {
   transition: 0.4s;
   transition: all .4s ease-in-out;
-  border-radius: 12px !important;
-  border: solid #f2f2f2 !important;
-  background-color: white !important;
+  background-color: transparent !important;
 }
 
-.nav-item
+.card-body
 {
-  width: 300px;
-  display: flex;
-  justify-content: center;
+  padding: 20px 0px !important;
 }
 
 .card:hover
@@ -65,23 +56,22 @@
 {
   font-family: "gotham";
   -webkit-font-family: "gotham";
-  color: #2f3947;
+  color: white;
 }
 
 
 .card-title2
 {
-  font-family: "gotham";
-  -webkit-font-family: "gotham";
-  color: #3c8482;
-  font-size:
+  font-family: "Noto_Serif_JP";
+  color: white;
+  font-size: 28px;
 }
 
 .card-texte
 {
   font-family: "Work Sans", sans-serif;
   -webkit-font-family: "heebo", sans-serif;
-  color: #2f3947;
+  color: #6f6f6f;
   font-weight: 100;
   font-size: 14px;
   line-height: 24px;

@@ -1,6 +1,5 @@
 .masthead {
-  height: 100vh;
-  min-height: 500px;
+  height: 200px;
   background-image: url('../image/header_valentin_bertinetti_1920x1080.jpg');
   background-size: cover;
   background-position: center;

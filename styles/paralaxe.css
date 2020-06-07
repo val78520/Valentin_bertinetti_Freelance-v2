@@ -48,7 +48,7 @@
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: auto;
   padding-top: 100px;
-  padding-bottom: 25px;
+  padding-bottom: 75px;
   /* For text formatting. */
 }
 
@@ -66,8 +66,7 @@
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: auto;
   background: grey;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 75px 0px;
   /* For text formatting. */
 }
 
@@ -75,7 +74,8 @@
   /* Needed for children to be absolutely positioned relative to the parent. */
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
-  height: 300px;
+  height: auto;
+  padding: 75px 0px;
   background: black;
 
   /* For text formatting. */
@@ -101,9 +101,17 @@
   /* For text formatting. */
 }
 
+.section8 {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+
+  background: black;
+  /* For text formatting. */
+}
 .static
 {
-  background: white;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,7 +119,7 @@
 
 .static2
 {
-  background: #f2f2f2;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,11 +135,11 @@
 }
 .static4
 {
-  background: #2f6f6d;
+  background: black;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0px 2px 10px rgba(0,0,0,0.2);
+
 }
 .static5
 {
@@ -170,6 +178,16 @@
   z-index: -1;
 }
 
+.line
+{
+  height: 1px !important;
+  background-color: #2b2b2b;
+  width: 940px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
 /* The styling for the static div. */
 
 

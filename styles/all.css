@@ -1,4 +1,8 @@
 /*---------------- MENU CONFIG AND ANIMATION ---------------*/
+p
+{
+margin: 0px!important;
+}
 
 div
 {
@@ -7,19 +11,19 @@ font-family: Cantarell;
 
 i
 {
-  color: grey;
+  color: white;
   text-decoration: none;
 }
 
 #facebook2,#twitter2,#linkedin2
 {
-  color: #00c7c1;
+  color: white;
   text-decoration: none;
   transition: 0.3s;
 }
 #facebook2:hover,#twitter2:hover,#linkedin2:hover
 {
-  color: white;
+  color: #3c8482;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -45,11 +49,13 @@ li
 {
   background-size: cover;
   background-position: center;
-  width: 150px;
-  height: 150px;
+  width: 75px;
+  height: 75px;
   background-image: url("../image/photo_profil_valentin_bertinetti_6000x4000.jpg");
+  border: solid white 1px;
   border-radius: 50%;
-  box-shadow: 1px 1px 5px 2px grey;
+  filter: grayscale(100%);
+  margin-right: 20px;
 }
 
 /* PROFIL MAIL CONFIG */
@@ -106,7 +112,9 @@ li
 
 body
 {
-  color: white;
+  width: 100%;
+  background-color: black
+  margin: 0px !important;
 }
 
 .video
@@ -117,4 +125,25 @@ body
 .progress-bar
 {
   background-color: #2F6F6D !important;
+}
+
+.cta
+{
+  font-size: 12px;
+  line-height: 50px;
+  padding: 0 45px;
+  letter-spacing: 2px;
+  display: inline-block;
+  margin: 45px 0px 40px 0px;
+  background: transparent;
+  border: solid white 1px;
+  color: white !important;
+  border-radius: 5px;
+  transition: all .4s ease-in-out;
+}
+
+.cta:hover
+{
+  background-color: white;
+  color: black !important;
 }
