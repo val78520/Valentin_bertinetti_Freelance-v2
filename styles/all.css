@@ -112,8 +112,7 @@ li
 
 body
 {
-  width: 100%;
-  background-color: black
+  background-color: black !important;
   margin: 0px !important;
 }
 
@@ -134,7 +133,7 @@ body
   padding: 0 45px;
   letter-spacing: 2px;
   display: inline-block;
-  margin: 45px 0px 40px 0px;
+  margin: 45px 0px 0px 0px;
   background: transparent;
   border: solid white 1px;
   color: white !important;

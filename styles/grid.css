@@ -48,44 +48,35 @@ transition: 0.4s;
 
 /* ---------------STAT CONFIG--------------- */
 .stat {
- background: black;
- border: solid rgba(0,0,0,0.2) 0.8px;
  padding: 10 10 10 0;
- margin: 24px;
  display: flex;
  align-items: center;
  justify-content: start;
- border-radius: 12px;
- width: 344px
  }
 
  .stat4 {
   background: black;
   border: solid rgba(0,0,0,0.2) 0.8px;
   padding: 10px;
-  margin: 24px;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 344px
+  min-height: 75px;
   }
 
  .stat2 {
   background: black;
   border: solid rgba(0,0,0,0.2) 0.8px;
-  padding: 10px;
-  margin: 24px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  width: 344px
+  min-height: 75px;
   }
 
   .stat3 {
    background: black;
-   border: solid rgba(0,0,0,0.2) 0.8px;
+   color: none;
    padding: 10px;
-   margin: 24px;
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -155,7 +146,7 @@ transition: 0.4s;
   font-size: 14px;
   font-weight: light;
   margin: 0px;
-  color: #FFE400;
+  color: #FFE400 !important;
   font-family: futura;
 }
 

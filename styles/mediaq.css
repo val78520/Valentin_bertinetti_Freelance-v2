@@ -42,19 +42,7 @@
       }
 
       .stat {
-       background: white;
-       border: solid rgba(0,0,0,0.2) 0.8px;
-       padding-top: 25px;
-       padding-bottom: 25px;
-       padding-left: 25px;
-       padding-right: 25px;
-       margin-left: 25px;
-       margin-right: 25px;
-       display: flex;
-       align-items: center;
-       justify-content: space-around;
-       flex-direction: column;
-       border-radius: 2px;
+
        }
 
        .pp
@@ -145,19 +133,7 @@
         }
 
         .stat {
-         background: white;
-         border: solid rgba(0,0,0,0.2) 0.8px;
-         padding-top: 25px;
-         padding-bottom: 25px;
-         padding-left: 25px;
-         padding-right: 25px;
-         margin-left: 25px;
-         margin-right: 25px;
-         display: flex;
-         align-items: center;
-         justify-content: space-around;
-         flex-direction: column;
-         border-radius: 2px;
+
          }
 
          .pp
@@ -212,9 +188,8 @@
 
       .section2
       {
-        background-position: top;
-
-        background-color: black
+        padding-top: 100px;
+        padding-bottom: 75px;
       }
       .section3
       {
@@ -257,6 +232,13 @@
       justify-content: center;
     }
 
+    .nav-val
+    {
+      display: flex;
+      align-items: center;
+      justify-content:center !important;
+    }
+
     /*--------- CSS GRID MEDIA QUERIES---------------- */
 
       .grid
@@ -273,7 +255,6 @@
        justify-content: center;
        flex-direction: column;
        padding: 0;
-       margin: 10px;
        width: 100%;
        }
 
@@ -298,25 +279,20 @@
 
        .stat2
        {
-          margin: 24px;
           display: flex;
           align-items: center;
           justify-content: center;
-          padding: 0px;
           text-align: center;
        }
 
        .stat4
        {
-         margin: 24px;
          display: flex;
          align-items: center;
          justify-content: center;
          padding: 0px;
 
        }
-
-      .profil { grid-column: 1; grid-row: 1;}
 
       .profil2 { grid-column: 1; grid-row: 2;}
 
@@ -337,8 +313,25 @@
         color: white;
         font-family: futura;
       }
+      .lienmenu
+      {
+        color: #FFE400 !important;
+      }
 
+      .navbar-nav
+      {
+        flex-direction: row !important;
+      }
 
+      .about-text, .navbar-brand
+      {
+        display: none !important;
+      }
+
+      body
+      {
+        width: 100% !important;
+      }
     /*--------------- ABOUT CONFIG ---------------*/
 
     /*--------------- CARD CONFIG ---------------*/

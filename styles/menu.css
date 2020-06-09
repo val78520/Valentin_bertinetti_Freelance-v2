@@ -18,7 +18,7 @@
   background-color: black;
   border-bottom: solid #262626 1px;
   font-family: "Work Sans";
-  height: 75px;
+
 }
 
 .nav-item
@@ -32,4 +32,17 @@
 {
   width: 245px;
 
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.lienmenu
+{
+  font-weight: bold;
 }
