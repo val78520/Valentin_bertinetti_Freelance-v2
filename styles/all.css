@@ -23,7 +23,7 @@ i
 }
 #facebook2:hover,#twitter2:hover,#linkedin2:hover
 {
-  color: #3c8482;
+  color: #FFE400;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -88,20 +88,7 @@ li
   text-decoration: none;
 }
 
-#facebook:hover
-{
-  color: #3b5998;
-}
 
-#twitter:hover
-{
-  color: #00aced;
-}
-
-#linkedin:hover
-{
-  color: #007bb6;
-}
 
 #infos
 {

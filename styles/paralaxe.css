@@ -66,7 +66,7 @@
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: auto;
   background: grey;
-  padding: 75px 0px;
+  margin: 75px 0px;
   /* For text formatting. */
 }
 
@@ -75,7 +75,7 @@
   position: relative;
   /* The height of the container. Must be set, but it doesn't really matter what the value is. */
   height: auto;
-  padding: 75px 0px;
+  margin: 75px 0px;
   background: black;
 
   /* For text formatting. */
