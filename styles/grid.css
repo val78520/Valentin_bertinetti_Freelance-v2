@@ -76,7 +76,7 @@ transition: 0.4s;
   .stat3 {
    background: black;
    color: none;
-   padding: 10px;
+   padding: 50px 0px 20px 0px;
    display: flex;
    align-items: center;
    justify-content: space-around;
@@ -96,13 +96,7 @@ transition: 0.4s;
 
 
 
-.about-text1
-{
-  font-size: 22px;
-  font-weight: light;
-  color: white;
-  font-family: futura;
-}
+
 .about-text
 {
   font-size: 30px;
@@ -141,24 +135,7 @@ transition: 0.4s;
   text-shadow: 1px 1px 2px black;
 }
 
-.underline-text
-{
-  font-size: 14px;
-  font-weight: light;
-  margin: 0px;
-  color: #FFE400 !important;
-  font-family: futura;
-}
 
-.headline-text
-{
-  font-family: Noto_Serif_JP !important;
-  font-size: 26px;
-  margin: 0px;
-  color: white;
-  font-family: futura;
-  text-align: center;
-}
 
 .parcours-link
 {

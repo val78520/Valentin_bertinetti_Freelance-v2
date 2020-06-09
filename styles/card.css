@@ -52,20 +52,9 @@
   width: 275px;
 }
 
-.card-title
-{
-  font-family: "gotham";
-  -webkit-font-family: "gotham";
-  color: white;
-}
 
 
-.card-title2
-{
-  font-family: "Noto_Serif_JP";
-  color: white;
-  font-size: 24px;
-}
+
 
 .card-texte
 {
@@ -105,7 +94,7 @@
   -webkit-font-family: "heebo", sans-serif;
   color: white;
   font-weight: 100;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .list-group-item

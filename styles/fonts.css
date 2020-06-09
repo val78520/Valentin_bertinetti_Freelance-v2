@@ -8,9 +8,9 @@
 
 @font-face {
   font-family: 'Noto_Serif_JP';
-  src: url('../fonts/Noto_Serif_JP /NotoSerifJP-Medium.otf') format('embedded-opentype'), url('../fonts/Noto_Serif_JP /NotoSerifJP-Regular.otf'), url('../fonts/Noto_Serif_JP /NotoSerifJP-Light.otf'), url('fonts/Noto_Serif_JP /NotoSerifJP-Bold.otf'), url('fonts/Noto_Serif_JP /NotoSerifJP-Black.otf');
+  src: url('../fonts/Noto_Serif_JP/NotoSerifJP-Bold.otf') format('embedded-opentype');
 
-  font-weight: normal;
+  font-weight: bold;
   font-style: normal;
 }
 
