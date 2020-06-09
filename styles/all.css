@@ -153,12 +153,12 @@ body
 {
   font-size: 24px;
   color: white;
-  font-family: cantarell;
+  font-family: gotham;
 }
 
 .titre3-serif
 {
-  font-family: "Noto_Serif_JP";
+  font-family: gotham;
   color: white;
   font-size: 24px;
 }
@@ -169,7 +169,7 @@ body
   font-weight: light;
   margin: 0px;
   color: #FFE400 !important;
-  font-family: cantarell!important;
+  font-family: gotham;
 }
 
 .headline-text
@@ -177,7 +177,7 @@ body
   font-size: 56px;
   margin: 0px;
   color: white;
-  font-family: futura;
+  font-family: gotham;
   font-weight: bold;
   text-align: center;
 }
