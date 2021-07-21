@@ -39,12 +39,6 @@
   background: white;
 }
 
-.profil:hover,.profil2:hover
-{
-box-shadow: 2px 1px 3px 1px rgba(0,0,0,0.2);
-transition: 0.4s;
-
-}
 
 /* ---------------STAT CONFIG--------------- */
 .stat {
@@ -55,8 +49,8 @@ transition: 0.4s;
  }
 
  .stat4 {
-  background: black;
-  border: solid rgba(0,0,0,0.2) 0.8px;
+  background: #F7F7F7;
+  /* border: solid rgba(0,0,0,0.2) 0.8px; */
   padding: 10px;
   display: flex;
   align-items: center;
@@ -65,8 +59,8 @@ transition: 0.4s;
   }
 
  .stat2 {
-  background: black;
-  border: solid rgba(0,0,0,0.2) 0.8px;
+  background: #f7F7F7;
+  /* border: solid rgba(0,0,0,0.2) 0.8px; */
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -74,7 +68,7 @@ transition: 0.4s;
   }
 
   .stat3 {
-   background: black;
+   background: #ffffff;
    color: none;
    padding: 50px 0px 20px 0px;
    display: flex;
@@ -102,7 +96,7 @@ transition: 0.4s;
   font-size: 30px;
   font-weight: bold;
   margin: 0px;
-  color: white;
+  color: #000000;
   font-family: futura;
 }
 
@@ -113,7 +107,7 @@ transition: 0.4s;
   font-family: gotham;
   font-weight: bold;
   font-size: 40px;
-  color: white;
+  color: #000000;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -131,7 +125,7 @@ transition: 0.4s;
   font-style: bold;
   font-size: 15px;
   font-family: candal;
-  color: white;
+  color: #000000;
   text-shadow: 1px 1px 2px black;
 }
 
@@ -139,11 +133,11 @@ transition: 0.4s;
 
 .parcours-link
 {
-  color: white;
+  color: #000000;
 }
 
 .parcours-link:hover
 {
   transition: 0.4s;
-  color: white;
+  color: #000000;
 }

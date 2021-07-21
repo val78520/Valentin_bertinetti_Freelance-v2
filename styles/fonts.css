@@ -1,3 +1,102 @@
+.h1
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-size: 32px!important;
+}
+
+.h2
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 700!important;
+  font-size: 24px!important;
+}
+
+.h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 500!important;
+  font-size: 16px!important;
+
+}
+
+.headline
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 4r00;
+  font-size: 18px!important;
+}
+
+.body
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 400!important;
+  font-size: 16px!important;
+  line-height: 30px;
+  letter-spacing: 0.75px;
+}
+
+.body2
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 400!important;
+  font-size: 14px!important;
+  line-height: 25px;
+  letter-spacing: 0.75px;
+}
+
+.subline
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #222222;
+  font-weight: 400!important;
+  font-size: 12px!important;
+}
+
+
+#center
+{
+  text-align: center;
+}
+
+.font-grey
+{
+  color: #7a7a7a;
+}
+
+.bold
+{
+  font-style: bold;
+}
+
+.disclaimer
+{
+  color: #ab1f1f;
+}
+
+#shadow
+{
+  text-shadow: 0px 3px 3px rgba(0,0,0,0.25);
+}
+
+.font-white
+{
+  color: #ffffff;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+}
+
+
+
+
 @font-face {
   font-family: 'gotham';
   src: url('../fonts/gotham-cufonfonts/Gotham-Bold.woff') format('embedded-opentype'), url('../fonts/gotham-cufonfonts/Gotham-Bold.otf'), url('../fonts/gotham-cufonfonts/Gotham-Bold.svg'), url('../fonts/gotham-cufonfonts/Gotham-Bold.ttf'), url('../fonts/gotham-cufonfonts/Gotham-Bold.eot');

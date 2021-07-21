@@ -1,11 +1,11 @@
 .list-group-item-alternance
 {
   background-color: transparent !important;
-  color: #6F6F6F;
+  color: #000000;
   padding: 5px 0px !important;
 }
 
 .keyword
 {
-  color: #FFE400 !important;
+  color: #000000 !important;
 }

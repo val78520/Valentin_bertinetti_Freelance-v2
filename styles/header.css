@@ -9,12 +9,22 @@
 
 .font-weight-light
 {
-  color: white;
+  color: #000000;
   font-family: gotham;
   font-size: 50px;
 }
 .lead
 {
   font-size: 60px;
-  color: white
+  color: #000000;
+}
+
+.container
+{
+  justify-content: left !important;
+}
+
+.navbar-toggler
+{
+  border: none!important;
 }
